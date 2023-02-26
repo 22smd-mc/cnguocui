@@ -24,10 +24,10 @@
   color: rgba(232, 184, 28, 0.977);
   font-size: 28px;
   font-family: "Microsoft YaHei", Arial, sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+               -2px -2px 4px rgba(143, 82, 82, 0.5);
   white-space: nowrap;
 }
-
 #top-nav ul {
     list-style: none;
     display: flex;
