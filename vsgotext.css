@@ -3,15 +3,14 @@
 
             padding: 0;
         }
-        /* 顶部导航栏样式 */
-    #top-nav {
+       /* 顶部导航栏样式 */
+#top-nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: #771010;
-    padding: 10px;
+    background-color: #3c3c3c;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,35 +19,54 @@
 }
 
 #top-nav h1 {
-  margin: 0;
-  color: rgba(249, 210, 81, 0.977);
-  font-size: 36px;
-  font-family: "Microsoft YaHei", Arial, sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+    font-family: "LiSu", "KaiTi", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #top-nav ul {
     list-style: none;
     display: flex;
-    margin-right: 5%;
-    color: rgb(135, 89, 32);
-    white-space: nowrap;
+    margin: 0;
+    padding: 0;
 }
 
 #top-nav li {
-    margin-left: 50px;
-    margin-right: 20px;
+    margin: 0 30px;
     white-space: nowrap;
 }
 
 #top-nav a {
     color: #fff;
+    font-size: 18px;
+    font-family: "SimSun", "Microsoft YaHei", Arial, sans-serif;
     text-decoration: none;
 }
+
 #top-nav a:hover {
-    color: rgb(88, 213, 227);
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+/* 导航栏动态效果 */
+#top-nav a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700;
+    transition: width 0.3s ease-in-out;
+}
+
+#top-nav a:hover:before {
+    width: 100%;
+}
+
 
         .main-content { z-index: 1;
             height: 100vh;
