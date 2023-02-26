@@ -1,0 +1,273 @@
+  body {
+            margin: 0;
+
+            padding: 0;
+        }
+        /* 顶部导航栏样式 */
+    #top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #771010;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+#top-nav h1 {
+  margin: 0;
+  color: rgba(249, 210, 81, 0.977);
+  font-size: 36px;
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+#top-nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5%;
+    color: rgb(135, 89, 32);
+    white-space: nowrap;
+}
+
+#top-nav li {
+    margin-left: 50px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+#top-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+#top-nav a:hover {
+    color: rgb(88, 213, 227);
+}
+
+        .main-content { z-index: 1;
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+
+        }
+
+
+
+        .page {
+            width: 100%;
+            height: 100%;
+            scroll-snap-align: start;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .page1 {
+            background-image: url(https://pic2.zhimg.com/v2-810c879a661c31f2cdbce8eefc8f26b1_r.jpg);
+        }
+        .page2{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/02/28/s621c360af37ae.jpg);
+             background-position: 50% 20%;
+        }
+        .page3{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/04/09/s607004e9597f9.jpg);
+             background-position: 50% 20%;
+        }
+        .page4{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/09/28/s63340bf6c2783.jpg);
+             background-position: 80% 30%;
+        }
+        .page5{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/05/31/s62956bf18d007.jpg);
+             background-position: 50% 20%;
+        }
+        .page6{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/04/21/s6260cc320d2d7.jpg);
+             background-position: 15% 15%;
+        }
+        .page7{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/04/28/s626a0234495d9.jpg);
+             background-position: 50% 20%;
+        }
+        .page8{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/02/28/s621c33ba3c8de.jpg);
+             background-position: 50% 20%;
+        }
+        .page9{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/11/29/s61a43e1911fa6.jpg);
+             background-position: 50% 20%;
+        }
+        .page10{
+            background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/08/31/s612df4e862207.jpg);
+             background-position: 50% 20%;
+        }
+        
+        
+
+        .text-section {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            overflow-y: auto;
+            flex-direction: column;
+            text-align: center;
+            background: rgba(218, 232, 240, 0.6);
+            /* 加入半透明的白色背景，让文字更为明显 */
+            padding: 20px;
+            margin-top: 10px;
+            box-shadow: 0.1px 0.5px 5px rgba(0, 0, 0, 0.987);
+            /* 加入阴影，突出文字和背景 */
+            border-radius: 150px;
+        }
+
+        h2 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 0.2px;
+            margin-top: 0;
+            color: #cc3333;
+            text-shadow: 0.5px 0.1px 0.2px #fff;
+        }
+
+        p {
+            text-indent: 2em;
+            font-weight: bold;
+            font-family: SimSun, "宋体", serif;
+            font-size: 1.5rem;
+            line-height: 1.25;
+            margin-bottom: 0.6rem;
+            color: #101011;
+            text-shadow: 0.2px 0.2px 0.2px #fff3f3;
+        }
+
+        .button-section {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-section a {
+            font-size: 2rem;
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #9d2933;
+            color: #FFFFFF;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 1.5px 1.5px 0.2px #111010;
+        }
+
+        .button-section a:hover {
+            background-color: #d33e3e;
+            box-shadow: 0px 0px 10px #59aa3b;
+        }
+
+        .image-section {z-index: 1;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+            margin-top: 80px;
+            overflow: hidden;
+        }
+
+        .image-container {
+            display: flex;
+            animation: slide 30s linear infinite;
+            /*水平滚动速度调节*/
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+         .dropdown {
+            position: relative;
+            display: inline-block;
+            perspective: 1000px;
+            /* 添加透视效果 */
+        }
+
+        /* 设置下拉菜单的按钮样式*/
+        .dropdown-toggle {
+            background-color: #f0f0f0;
+            border: none;
+            color: #333;
+            width: 60px;
+            height: 60px;
+            font-size: 16px;
+            cursor: pointer;
+            /*设置鼠标样式 */
+            border-radius: 50%;
+            /* 添加圆形边框半径 */
+            transition: background-color 0.2s ease, transform 0.2s ease;
+            /* 添加过渡效果 */
+        }
+
+        /* 设置鼠标悬停时按钮的样式*/
+        .dropdown-toggle:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.1);
+            /* 鼠标悬停时放大 */
+        }
+
+        /* 设置下拉菜单的内容样式*/
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f0f0f0;
+             z-index: 1000;
+            border-radius: 10px;
+            /* 添加矩形边框半径 */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transform-origin: top center;
+            /* 设置旋转中心 */
+            transform: rotateX(-90deg);
+            /* 初始时旋转90度，内容不可见 */
+            transition: transform 0.2s ease;
+            /* 添加过渡效果 */
+        }
+
+        /* 鼠标悬停在下拉菜单的容器上时，显示下拉菜单的内容*/
+        .dropdown:hover .dropdown-content {
+            display: block;
+            /*显示下拉菜单的内容*/
+            transform: rotateX(0deg);
+            /* 鼠标悬停时恢复正常，内容可见 */
+        }
+
+        /* 设置下拉菜单的每个选项的样式*/
+        .dropdown-item {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* 鼠标悬停在下拉菜单的每个选项上时的样式*/
+        .dropdown-item:hover {
+            background-color: #e0e0e0;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
