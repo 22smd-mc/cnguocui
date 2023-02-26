@@ -73,42 +73,53 @@
 
         .page1 {
             background-image: url(https://pic2.zhimg.com/v2-810c879a661c31f2cdbce8eefc8f26b1_r.jpg);
+            background-size: cover;
+            background-position: center center;
         }
         .page2{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/02/28/s621c360af37ae.jpg);
-             background-position: 50% 20%;
+            background-size: cover;
+            background-position: center center;
         }
         .page3{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/04/09/s607004e9597f9.jpg);
-             background-position: 50% 20%;
+            background-size: cover;
+            background-position: center center;
         }
         .page4{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/09/28/s63340bf6c2783.jpg);
-             background-position: 80% 30%;
+            background-size: cover;
+            background-position: center center;
         }
         .page5{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/05/31/s62956bf18d007.jpg);
-             background-position: 50% 20%;
+            background-size: cover;
+            background-position: center center;
         }
         .page6{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/04/21/s6260cc320d2d7.jpg);
-             background-position: 15% 15%;
+             background-size: cover;
+             background-position: center center;
         }
         .page7{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/04/28/s626a0234495d9.jpg);
-             background-position: 50% 20%;
+            background-size: cover;
+            background-position: center center;
         }
         .page8{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2022/02/28/s621c33ba3c8de.jpg);
-             background-position: 50% 20%;
+             background-size: cover;
+            background-position: center center;
         }
         .page9{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/11/29/s61a43e1911fa6.jpg);
-             background-position: 50% 20%;
+             background-size: cover;
+            background-position: center center;
         }
         .page10{
             background-image: url(https://img.dpm.org.cn/Uploads/Picture/2021/08/31/s612df4e862207.jpg);
-             background-position: 50% 20%;
+             background-size: cover;
+             background-position: center center;
         }
         
         
